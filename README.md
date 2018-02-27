@@ -1,24 +1,27 @@
-# README
+# Converter-Exchange
+>App Conversao de Moeda, utilizando a api [Fixer.io](http://fixer.io/)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+![ruby](https://img.shields.io/badge/Ruby-2.3-red.svg).
+![rails](https://img.shields.io/badge/Rails-5.0.1-red.svg).
+![docker](https://img.shields.io/docker/automated/jrottenberg/ffmpeg.svg).
 
-Things you may want to cover:
+### [Acesse o app online](http://converterexchange.herokuapp.com/)
 
-* Ruby version
+Este e um App de Conversão de Moedas, que foi desenvolvido no curso Bootcamp Super Full Stack turma 4 da One Bit Code [site](https://onebitcode.com).
 
-* System dependencies
+![Converter-Exchange]()
 
-* Configuration
+Esse App tem a finalidade de converter moedas de todo o mundo, basta escolher a moeda a ser convetida e digitar o valor, em seguida, será mostrado a conversão automática no campo resultado. Ainda conta com a opção de inveter as posições da moeda local e a pretendida.
 
-* Database creation
+## Requisitos
+- SO (Windows, Mac OS ou Linux)
+- Docker
+- Clonar o projeto numa pasta em sua máquina
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## Instalação
+...
+docker-compose build
+docker-compose run --rm website rails db:create db:migrate
+docker-compose up
+...
+Após realizar os comandos acima, acesse a aplicação digitando http://localhost:3000 em seu browser.
