@@ -7,11 +7,11 @@
 
 ### [Acesse o app online](http://converterexchange.herokuapp.com/)
 
-App de Conversão de Moedas, desenvolvido no curso Bootcamp Super Full Stack turma 4 da One Bit Code [site](https://onebitcode.com).
+App Conversor de Moedas, desenvolvido no curso Bootcamp Super Full Stack turma 4 One Bit Code, visite o [site](https://onebitcode.com).
 
 ![Converter-Exchange](https://github.com/romulofortaleza/onebitcode_exchange/blob/master/public/coverter-exchange.jpeg)
 
-Esse App tem a finalidade de converter moedas de todo o mundo, basta escolher a moeda a ser convetida e digitar o valor, em seguida, será mostrado a conversão automática no campo resultado. Ainda conta com a opção de inveter as posições da moeda local e a pretendida.
+Esse App tem a finalidade de converter moedas de todo o mundo, basta escolher a moeda a ser convetida e digitar o valor, em seguida, será mostrado a conversão automática no campo resultado. Ainda conta com a opção de inverter as posições da moeda local e a pretendida.
 
 ## Requisitos para rodar a aplicação
 - SO (Windows, Mac OS ou Linux)
@@ -19,9 +19,9 @@ Esse App tem a finalidade de converter moedas de todo o mundo, basta escolher a 
 - Clonar o projeto numa pasta em sua máquina
 
 ## Instalação
-...
+```
 docker-compose build
 docker-compose run --rm website rails db:create db:migrate
 docker-compose up
-...
+```
 Após realizar os comandos acima, acesse a aplicação digitando http://localhost:3000 em seu browser.
