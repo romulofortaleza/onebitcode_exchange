@@ -1,5 +1,14 @@
 $(document).ready ->
-  $('form').submit ->
+  $('#quantity').keyup ->
+    exchange()
+  $('#currency').change ->
+    exchange()
+  $('#currency_destination').change ->
+    exchange()
+  $('#change_currency').click ->
+    change_currency()
+
+exchange = ->
     if $('form').attr('action') == '/exchange'
       $.ajax '/exchange',
           type: 'POST'
@@ -14,3 +23,9 @@ $(document).ready ->
           success: (data, text, jqXHR) ->
             $('#result').val(data.value)
         return false;
+
+change_currency = ->
+  current_currency = $("#currency").val()
+  $("#currency").val($("#currency_destination").val())
+  $("#currency_destination").val(current_currency)
+  exchange()
