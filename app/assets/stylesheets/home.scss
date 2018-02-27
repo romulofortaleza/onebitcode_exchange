@@ -7,17 +7,19 @@ body {
 }
 
 .title-box{
-  margin-top: 20%;
+  margin-top: 15%;
+  padding: 7%;
+  text-align: center;
   .title{
-    color: white;
+    color: orange;
     text-shadow: 2px 0px 2px #000000;
   }
 }
 
 .exchange_box{
-  margin: 10px auto;
-  .logo-box{
-    margin: 0 auto;
-    padding-bottom: 10px;
+    margin: 10px auto;
+    .logo-box{
+      margin: 0 auto;
+padding-bottom: 10px;
   }
 }
