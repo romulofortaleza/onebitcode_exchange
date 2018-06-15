@@ -1,5 +1,5 @@
 # Converter-Exchange
->App Conversão de Moeda, utilizando a api [Fixer.io](http://fixer.io/)
+>App Conversão de Moedas, utilizando a api [Fixer.io](http://fixer.io/)
 
 ![ruby](https://img.shields.io/badge/Ruby-2.3-red.svg).
 ![rails](https://img.shields.io/badge/Rails-5.0.1-red.svg).
