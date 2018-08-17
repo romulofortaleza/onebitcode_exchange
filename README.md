@@ -1,4 +1,4 @@
-Obs.: A API desse projeto sofre modificações, com isso, a nova versão do exchange está em desenvolvimento).
+Obs.: A API desse projeto sofreu modificações, com isso, a nova versão do exchange está em desenvolvimento).
 # Converter-Exchange
 >App Conversão de Moedas, utilizando a api [Fixer.io](http://fixer.io/)
 
